@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class xYZsum {
 	   
-	   public static void main(String[] args) throws IOException{
+	   public static void main(String[] args) throws IOException, InterruptedException{
 	    /*    Scanner in = new Scanner(System.in);
 	        String[] output = null;
 	        int ip1 = Integer.parseInt(in.nextLine().trim());
@@ -24,6 +24,9 @@ public class xYZsum {
 	            System.out.println(String.valueOf(output[output_i]));
 	        }
 	    }*/
+		   
+		   System.out.println("SJISKOK");
+		  // Thread.currentThread().join();
 	}
 
 }
