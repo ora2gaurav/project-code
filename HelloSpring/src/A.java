@@ -1,7 +1,7 @@
 import java.io.*;
 
 public class A {
-	static int [] arr={1,2,4,9,6,13,8,11};
+	static int [] arr={1,9,4,2,6,13,8,11};
     public static void main(String[] args) throws IOException {
     	
     	int even=0,odd=1;

@@ -26,14 +26,15 @@ public class LRUCache {
 	}
 	public void set(int key,int value)
 	{
-		if(size==0)
+		
+		if(hm.containsKey(key))
+		{q.remove(key);
+         }
+		else if(size==0)
 		{
 			int rem=q.poll();
 			hm.remove(rem);
 		}
-		if(hm.containsKey(key))
-		{q.remove(key);
-         }
 		q.add(key);
 		hm.put(key, value);
 		if(size>0)

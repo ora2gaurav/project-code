@@ -25,7 +25,8 @@ public class NQUENN {
 			System.out.println();
 		
 		}
-		System.exit(0);
+		System.out.println("aaaaaaaaaaaa");
+		
 		return;
 	}
 		
